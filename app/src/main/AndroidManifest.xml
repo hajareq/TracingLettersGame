@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.game.kidsgame">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".French.Maj.Activities.J.J"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.NineFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.EightFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.SevenFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.SixFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.FiveFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.FourFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.ThreeFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.TwoFrNum"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".French.Num.FrNumActivities.OneFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.FrNumActivities.ZeroFrNum"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".English.EnChoices"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.NumberSwitcherFr"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Num.ListNumbersFr"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.ListLettersFrMaj"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.LetterSwitcherFrMaj"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.FrChoices"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.ZFrMin.ZFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.YFrMin.YFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.XFrMin.XFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.WFrMin.WFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.VFrMin.VFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.UFrMin.UFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.TFrMin.TFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.SFrMin.SFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.RFrMin.RFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.QFrMin.QFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.PFrMin.PFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.OFrMin.OFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.NFrMin.NFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.MFrMin.MFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.LFrMin.LFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.KFrMin.KFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.JFrMin.JFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.IFrMin.IFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.HFrMin.HFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.GFrMin.GFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.FFrMin.FFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.EFrMin.EFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.DFrMin.DFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.CFrMin.CFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.B.B"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.Activities.A.A"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.Z.Z"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.Y.Y"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.X.X"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.W.W"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.V.V"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.U.U"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.T.T"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.S.S"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.R.R"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.Q.Q"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.P.P"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.O.O"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.N.N"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.M.M"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.L.L"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.K.K"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.I.I"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.H.H"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.G.G"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.F.F"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.E.E"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.D.D"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.C.C"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.B.B"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Maj.Activities.A.A"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.LetterSwitcherFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.Min.ListLettersFrMin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".GameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".English.EnGameFirst"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Arab.ArGameFirst"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".French.FrGameFirst"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2">
+
+        </activity>
+
+        <service
+            android:name=".SoundService"
+            android:enabled="true" />
+        <service
+            android:name=".SoundServiceOk"
+            android:enabled="true" />
+
+        <activity android:name=".Main"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
